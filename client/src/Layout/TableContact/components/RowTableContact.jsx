@@ -7,13 +7,14 @@ const RowTableContact = (props) => {
       <th>{props.name}</th>
       <th>{props.email}</th>
       <th>
-        <Link to={`/contact/${props.id}`}
-          className='btn btn-primary btn-sm'>
+        <Link
+          to={`/contact/${props.id}`}
+          className="btn btn-primary btn-sm">
           Подробнее
         </Link>
       </th>
-    </tr>
+    </tr >
   );
-};
+}
 
 export default RowTableContact;

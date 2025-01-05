@@ -13,7 +13,10 @@ const AppendContact = () => {
         };
 
         let url = `${baseApiUrl}/contacts`;
-        axios.post(url, item).then(() => { navigate("/"); });
+        axios.post(url, item)
+            .then(
+                () => { navigate("/"); }
+            );
     }
 
     return (
@@ -23,7 +26,6 @@ const AppendContact = () => {
             </div>
             <div className="card-body">
                 <FormContact addContact={addContact} />
-
             </div>
         </div>
     );
