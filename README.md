@@ -1,4 +1,4 @@
-﻿# FullStackApp
+﻿# ContactManagerApp
 ## Это SPA-приложение, представляет собой телефонную книжку, где frontend написан на React.js с Bootstrap, а backend на .Net Core. Использованный редактор кода - VS Code.
 # Backend
 ## Весь backend хранится в папке API, для полноценного запуска нужно установить платформу .Net, использовались библиотеки: Microsoft.EntityFrameworkCore, Microsoft.Data.Sqlite, Microsoft.OpenApi.Models, которые нужно скачать. Также была удалена база данных, но она создасться после запуска проекта, с уже созданными пользователями, также в файле appsettings.json нужно указать строку подключения(SqliteStringConnection) и адресс клиента(client)
